@@ -34,7 +34,7 @@ main {
 	flex-direction: column;
 	align-items: center;
 	background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-	border-radius: 0 0 30px 30px;
+	border-radius: 0 0 2em 2em;
 }
 
 .intro-heading {
