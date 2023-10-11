@@ -1,0 +1,88 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+main {
+	border: 1.5px solid black;
+	display: flex;
+	flex-direction: column;
+	width: 80vw;
+	height: calc(
+		809 * 80vw / 375
+	); /* To maintain the aspect-ratio: 375/809; height = 809w / 375; */
+	font-family: "Hanken Grotesk", sans-serif;
+	font-size: calc(64vw / 15);
+}
+
+.result-overview {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+	border-radius: 0 0 30px 30px;
+}
+
+.intro-heading {
+	font-size: 0.755em;
+	margin-top: 2em;
+	margin-bottom: 0.5em;
+}
+
+.score-rating {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+	width: 7em;
+	height: 7em;
+	border-radius: 50%;
+}
+
+.score {
+	font-weight: 800;
+	font-size: 2.3em;
+}
+
+.rating {
+	font-weight: 500;
+	font-size: 0.6em;
+}
+
+.satisfactory-rating {
+	margin: 0;
+	font-size: 1em;
+}
+
+.score,
+.satisfactory-rating {
+	color: white;
+}
+
+.intro-heading,
+.rating,
+.performance-comparison {
+	color: hsla(0, 0%, 100%, 75%);
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
