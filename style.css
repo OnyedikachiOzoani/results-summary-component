@@ -87,6 +87,32 @@ main {
 	color: hsla(0, 0%, 100%, 60%);
 }
 
+/* For Desktop */
+
+@media (min-width: 375px) {
+	main {
+		border: none;
+		flex-direction: row;
+		font-size: 2vw;
+		width: 60%;
+		border-radius: 1em;
+		box-shadow: 1em 1em 1em hsl(221, 100%, 96%);
+	}
+
+	.flex-item {
+		flex: 1 1 50%;
+	}
+
+	.result-overview {
+		border-radius: 1em;
+	}
+
+	.performance-comparison {
+		margin: auto;
+		padding: 0 3.5em;
+	}
+}
+
 /* result-summary section */
 
 .result-summary {
@@ -158,6 +184,14 @@ main a {
 	padding: 0.8em;
 	border-radius: 1.5em;
 	font-size: 0.85em;
+}
+
+/* For Desktop */
+
+@media (min-width: 375px) {
+	.result-summary {
+		box-sizing: border-box;
+	}
 }
 
 .attribution {
