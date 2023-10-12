@@ -8,7 +8,9 @@
 
 2. Mobile preview: ![image of the mobile preview](design/mobile-design.jpg "mobile preview")
 
-Link to the challenge on Frontend Mentor: [Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa "view the challenge on Frontend Mentor website")
+Link to live site: [results-summary-component](https://results-summary-component-nerdynerd.netlify.app/ "live site")
+
+Link to the challenge on Frontend Mentor: [Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV "view the challenge on Frontend Mentor website")
 
 Check out my Frontend Mentor Profile: [My Frontend Mentor profile](https://www.frontendmentor.io/profile/OnyedikachiOzoani "View my Frontend Mentor profile")
 
